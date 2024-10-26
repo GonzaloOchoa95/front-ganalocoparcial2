@@ -10,7 +10,7 @@
   max-width: 800px; /* Aumenta el ancho máximo */
   border: 1px solid #ccc;
   border-radius: 10px;
-  background-image: url(public/fondo.jpg);
+  background-image: url(/fondo.jpg);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Hace la sombra un poco más notoria */
 }
 
