@@ -1,16 +1,16 @@
 /* Estilos para el formulario */
 #form1 {
-  background-image: url(src/assets/fondo.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px; /* Aumenta el relleno para que sea más grande */
+  padding: 40px; /* Aumenta el relleno para que sea más grande */
   margin: 20px auto;
   width: 90%; /* Aumenta el ancho general */
   max-width: 800px; /* Aumenta el ancho máximo */
   border: 1px solid #ccc;
   border-radius: 10px;
+  background-image: url(src/assets/fondo.jpg);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Hace la sombra un poco más notoria */
 }
 
