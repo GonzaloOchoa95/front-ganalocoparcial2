@@ -3,7 +3,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 90px;
-    background-image: url(/fondo.jpg);
+    background-image: url(public/fondo.jpg);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
