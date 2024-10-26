@@ -2,7 +2,7 @@
     max-width: 400px;
     margin: 50px auto;
     padding: 100px;
-    background-image: url(public/fondo.jpg);
+    background-image: url(src/assets/fondo.jpg);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
