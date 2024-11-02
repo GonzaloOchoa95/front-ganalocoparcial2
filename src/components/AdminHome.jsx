@@ -30,7 +30,7 @@ function AdminHome({user}){
 
     useEffect(()=>{
 
-        fetch(`https://front-ganalocoparcial2.vercel.app/v1/signos/traer/${valor}`, {
+        fetch(`https://back-ganalocoparcial2.vercel.app/v1/signos/traer/${valor}`, {
             method: 'GET',
             headers: {"Content-Type": "application/json"},
             // body: JSON.stringify(null)
