@@ -24,7 +24,7 @@ function Form({ callback, setiduser }) {
         event.preventDefault();
       
         try {
-            const res = await fetch('https://front-ganalocoparcial2.vercel.app/v1/signos/login', {
+            const res = await fetch('https://front-ganalocoparcial2.vercel.app', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
