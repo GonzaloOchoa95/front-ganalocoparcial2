@@ -34,7 +34,7 @@ const Restablecer = ()=>{
 
         e.preventDefault();
         
-        fetch(`https://front-ganalocoparcial2.vercel.app/signos/restablecer`,{
+        fetch(`http://localhost:4000/signos/restablecer`,{
 
             method:'PATCH',
             headers: {"content-Type":"application/json"},

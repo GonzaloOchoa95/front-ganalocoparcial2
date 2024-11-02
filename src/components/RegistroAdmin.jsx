@@ -38,7 +38,7 @@ const RegistroAdmin = ()=>{
         // console.log(textoEditar);
         e.preventDefault();
       
-        fetch(`https://front-ganalocoparcial2.vercel.app/signos/registroadmin`, {
+        fetch(`http://localhost:4000/signos/registroadmin`, {
             method: 'POST',
             headers: {"Content-Type":"application/json"},
             body: JSON.stringify({...addcredenciales})

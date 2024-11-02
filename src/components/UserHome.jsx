@@ -37,7 +37,7 @@ function UserHome({user,iduser}){
 
     useEffect(()=>{
 
-        fetch(`https://front-ganalocoparcial2.vercel.app/v1/signos/traerusuario/${iduser}`, {
+        fetch(`http://localhost:4000/v1/signos/traerusuario/${iduser}`, {
             method: 'GET',
             headers: {"Content-Type": "application/json"},
             // body: JSON.stringify(null)
@@ -63,7 +63,7 @@ function UserHome({user,iduser}){
         event.preventDefault();
         
         if(codigo.numero !== "0" && codigo.numero.trim() !== ""){
-            fetch(`https://front-ganalocoparcial2.vercel.app/v1/signos/codigo`, {
+            fetch(`http://localhost:4000/v1/signos/codigo`, {
                 method: 'POST',
                 headers: {"Content-Type":"application/json"},
                 body: JSON.stringify({codigo})
