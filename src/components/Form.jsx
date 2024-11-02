@@ -16,6 +16,10 @@ function Form({ callback, setiduser }) {
         navigate('/registro');
     };
 
+    const registraadmin = () => {
+        navigate('/RegistroAdmin');
+    };
+
     const restablecerPassword = () => {
         navigate('/restablecer');
     };
@@ -63,6 +67,7 @@ function Form({ callback, setiduser }) {
             <h6 id="texto">{texto11}</h6>
             <input type="submit" value="Ingresar" id="btnEnviar" />
             <button type="button" onClick={registra}>Registrate</button>
+            <button type="button" onClick={registraadmin}>Registrar un Administrador</button>
             
         </form>
     );
