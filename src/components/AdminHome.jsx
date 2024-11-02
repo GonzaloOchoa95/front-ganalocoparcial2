@@ -58,7 +58,7 @@ function AdminHome({user}){
         <div class="container">
            
             
-            <button id="btnHomeAdmin" onClick={goHome}>Home</button>
+            <button id="btnHomeAdmin" onClick={goHome}>Regresar al Inicio de Sesion</button>
             {/* Mostrar la tabla solo si infoTabla tiene datos */}
            {
                 <table>

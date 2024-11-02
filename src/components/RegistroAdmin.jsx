@@ -68,7 +68,7 @@ const RegistroAdmin = ()=>{
                 <label htmlFor="">Contraseña</label>
                 <input type="password" name = "password" value={addcredenciales.password} onChange={hancredenciales}/>
                 <input type="submit" value="Agregar" id="agregar"/>
-                <button onClick={goHome}>Home</button>
+                <button onClick={goHome}>Regresar a Inicio de Sesion</button>
             </form>
         </div>
     )

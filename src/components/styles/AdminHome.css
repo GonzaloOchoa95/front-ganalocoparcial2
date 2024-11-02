@@ -50,11 +50,11 @@ body{
 }
 
 #btnHomeAdmin{
-    margin-top: 15px;
-    padding: 5px;
+    margin-top: 30px;
+    padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: #28a745;
     color: white
 }
